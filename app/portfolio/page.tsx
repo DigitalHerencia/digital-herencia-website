@@ -17,21 +17,21 @@ export default function PortfolioPage() {
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/competitive%20advantage-HhYAHfyLnAc2BVEOvEDREBpADQxGpv.png",
       tags: ["Next.js", "React", "TypeScript", "Data Visualization"],
-      link: "#",
+      link: "/portfolio/competitive-advantage",
     },
     {
       title: "Wedding Planner Pro",
       description: "A wedding planning application with scheduling tools for photographers and event coordinators.",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-pro-1tS8g9DCQuzBQBYIS3swJBpbpRfzEE.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Calendar API"],
-      link: "#",
+      link: "/portfolio/wedding-planner",
     },
     {
       title: "Court Jester",
       description: "An administrative dashboard for legal professionals to manage cases, documents, and court dates.",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/courtjester-blaxusBpEEuA7UgeCoF9F7bd3WdmYw.png",
       tags: ["Next.js", "React", "Node.js", "Authentication"],
-      link: "#",
+      link: "/portfolio/court-jester",
     },
     {
       title: "SignalBridge",
@@ -39,14 +39,14 @@ export default function PortfolioPage() {
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/signal%20bridge-D3BF6Xlo90SXr2HgwOsdhoxHZXGPcp.png",
       tags: ["React", "Node.js", "WebSockets", "Security"],
-      link: "#",
+      link: "/portfolio/signal-bridge",
     },
     {
       title: "DramaDrops",
       description: "An anonymous social platform for sharing stories and discussions in a secure environment.",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aVxVYR6SWaiJmZ1EGcB97caBaxSIQ2.png",
       tags: ["Next.js", "MongoDB", "Express", "Node.js"],
-      link: "#",
+      link: "/portfolio/drama-drops",
     },
     {
       title: "Design System Utility",
@@ -54,24 +54,24 @@ export default function PortfolioPage() {
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dc224125-baac-4d9f-b4a3-bb2346457bf4-6WMTHTqVMhIP14tCZV8lENY2G2s16W.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Design Systems"],
-      link: "#",
+      link: "/portfolio/design-system-utility",
     },
     {
-      title: "Asynchronous Love",
+      title: "Hustler's Code",
       description:
         "A street-smart business management tool designed for entrepreneurs to track sales, manage inventory, and forecast profits with a secure, private interface.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hustlers%20code-dBtf4D9upG69enfitY6OrLWp1KfJHM.png",
       tags: ["Next.js", "React", "TypeScript", "Dark Mode UI", "Business Tools"],
-      link: "#",
+      link: "/portfolio/hustlers-code",
     },
     {
-      title: "Clean Code, Dirty Mind",
+      title: "Free The Homie",
       description:
         "A fundraising platform built to support community members in need, featuring e-commerce functionality with direct proceeds to beneficiaries.",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freethehomie-oOELsQrpBdf5568OzgAT2zkrqLFbgb.png",
       tags: ["Next.js", "E-commerce", "Payment Processing", "Community Support"],
-      link: "#",
+      link: "/portfolio/free-the-homie",
     },
   ]
 

@@ -148,28 +148,6 @@ export default function AboutPage() {
         "A comprehensive dashboard built using the OG MERN Stack specifically for merchandise allocation planning nerds in the New Mexico cannabis industry. Who said retail analytics aren't lit!",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/612c395e-a742-4721-bea0-6749759ecb82%20%281%29-VmWrcsCPyjmAxq1eWCb4Ad5zrx4JAR.png",
-      screenshots: [
-        {
-          url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SuFd67O64dPzf62li71Zjpzk09edmM.png",
-          caption: "Dashboard View - Sales metrics and competitor rankings",
-        },
-        {
-          url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ilp1BvzgQTO2CpfhWBLyswB7yRJzQe.png",
-          caption: "Inventory Breakdown - Category analysis with interactive charts",
-        },
-        {
-          url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-miUPBdnnxYmvFBv5IT3K4ehnYvHdPv.png",
-          caption: "Dispensary Directory - Comprehensive competitor tracking",
-        },
-        {
-          url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8iS2JT3ydgni7u41aKjwpQWcQ7lnM8.png",
-          caption: "Performance Comparison - Sales trend analysis over time",
-        },
-        {
-          url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qfdmkU0QzlsrqV7RBemtYuQj1p9COc.png",
-          caption: "Geographic Analysis - Dispensary location mapping",
-        },
-      ],
       repo: "https://github.com/DigitalHerencia/NM-Cannabis-Analytics",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Data Visualization"],
     },
@@ -261,6 +239,23 @@ export default function AboutPage() {
                   </div>
                 </Link>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Digital Herencia Banner */}
+      <section className="py-8 bg-black noise-bg relative overflow-hidden">
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="flex justify-center">
+            <div className="relative w-full max-w-4xl rounded-lg overflow-hidden">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/reg2.jpg-gyTzLzcXHlTHDs8qF7Sa5GPm5M2A1X.jpeg"
+                alt="Digital Herencia - A Data Cartel"
+                width={1200}
+                height={600}
+                className="w-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -362,28 +357,6 @@ export default function AboutPage() {
                         />
                       </div>
                     </div>
-
-                    {/* Project Screenshots Gallery */}
-                    {project.screenshots && (
-                      <div className="mt-6">
-                        <h4 className="text-lg font-semibold mb-4 text-white/90">Project Screenshots</h4>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                          {project.screenshots.map((screenshot, ssIndex) => (
-                            <div key={ssIndex} className="space-y-2">
-                              <div className="relative aspect-video rounded-lg overflow-hidden border border-white/10">
-                                <Image
-                                  src={screenshot.url || "/placeholder.svg"}
-                                  alt={`${project.title} screenshot ${ssIndex + 1}`}
-                                  fill
-                                  className="object-cover"
-                                />
-                              </div>
-                              <p className="text-sm text-white/60 text-center">{screenshot.caption}</p>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
                   </div>
                 </div>
               </motion.div>
