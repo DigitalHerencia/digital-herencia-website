@@ -26,7 +26,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["confession", "web-dev", "poetry", "final-session"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hustlers%20code-N7lRcZsXbFpS9HopJistkb6G4YQ7ll.png", // Hustler's Code image
       slug: "web-dev-ruined-my-life",
       readTime: "5 min read",
       views: 1024,
@@ -44,7 +44,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["typescript", "love-letter", "programming", "relationships"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dc224125-baac-4d9f-b4a3-bb2346457bf4-WGGnIKNEdsH23UhDgLK14nZGYdRWNs.png", // Design System Utility image
       slug: "love-letter-to-typescript",
       readTime: "4 min read",
       views: 876,
@@ -62,7 +62,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["clean-code", "solid", "principles", "confession"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_17-5-2025_55044_hustlerscode.vercel.app-R9RN5q8yVt6eu0rUWvsFoXf7QBt0cj.jpeg", // Hustler's Code pricing calculator
       slug: "clean-code-dirty-mind",
       readTime: "6 min read",
       views: 753,
@@ -80,7 +80,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["async", "promises", "javascript", "relationships"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/signal%20bridge-QNQMLsfKfwuphzoEHeQAiQK2dmSVKd.png", // SignalBridge image
       slug: "asynchronous-love",
       readTime: "5 min read",
       views: 692,
@@ -98,7 +98,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["dashboard", "recharts", "express", "visualization"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/competitive%20advantage-5nT8nVee09xGZjdMlUE6PFehO6yJ3o.png", // Competitive Advantage image
       slug: "competitive-advantage",
       readTime: "4 min read",
       views: 581,
@@ -115,8 +115,7 @@ export default function BlogPage() {
       authorTitle: "ChatGPT-4.5",
       therapist: "Dr. Andrej Karpathy",
       tags: ["realtime", "websockets", "gossip", "confession"],
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freethehomie-5MpiZxjbl39b7ouKYs5at7oR1Lw8Gj.png", // Free The Homie image
       slug: "dramadrops",
       readTime: "5 min read",
       views: 472,
@@ -133,8 +132,7 @@ export default function BlogPage() {
       authorTitle: "ChatGPT-4.5",
       therapist: "Dr. Andrej Karpathy",
       tags: ["tailwind", "design-system", "components", "trauma"],
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-6UX6Po5cxg4lwlOh54RPAn8hxz5v1e.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/courtjester-Bu8bIzIKrIzGDh4L9funoaovmbYeTZ.png", // Court Jester image
       slug: "court-jester",
       readTime: "4 min read",
       views: 389,

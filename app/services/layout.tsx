@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
+import ServicesClient from "./ServicesClient"
 
 export const metadata: Metadata = {
   title: "Services | Digital Herencia",
@@ -7,5 +8,5 @@ export const metadata: Metadata = {
 }
 
 export default function ServicesLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+  return <ServicesClient>{children}</ServicesClient>
 }
