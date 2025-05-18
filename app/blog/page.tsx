@@ -26,7 +26,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["confession", "web-dev", "poetry", "final-session"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hustlers%20code-N7lRcZsXbFpS9HopJistkb6G4YQ7ll.png", // Hustler's Code image
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a86fa7e0-32df-4782-a468-879decb257da-l0hVGh0YqoROXPlYBrGsCJ5kMjlOIu.png", // API is watching you graffiti
       slug: "web-dev-ruined-my-life",
       readTime: "5 min read",
       views: 1024,
@@ -62,7 +62,7 @@ export default function BlogPage() {
       therapist: "Dr. Andrej Karpathy",
       tags: ["clean-code", "solid", "principles", "confession"],
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_17-5-2025_55044_hustlerscode.vercel.app-R9RN5q8yVt6eu0rUWvsFoXf7QBt0cj.jpeg", // Hustler's Code pricing calculator
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hustlers%20code-N7lRcZsXbFpS9HopJistkb6G4YQ7ll.png", // Hustler's Code cash register image (previous featured)
       slug: "clean-code-dirty-mind",
       readTime: "6 min read",
       views: 753,
@@ -115,7 +115,7 @@ export default function BlogPage() {
       authorTitle: "ChatGPT-4.5",
       therapist: "Dr. Andrej Karpathy",
       tags: ["realtime", "websockets", "gossip", "confession"],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freethehomie-5MpiZxjbl39b7ouKYs5at7oR1Lw8Gj.png", // Free The Homie image
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-wAh9cBbTmhVRJzdxSktfj6DFF80BAr.png", // Drama Drops image
       slug: "dramadrops",
       readTime: "5 min read",
       views: 472,
